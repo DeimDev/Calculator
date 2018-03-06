@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:columnCount="4"
+    android:orientation="horizontal"
+    tools:context="dev.deim.android.calculator.MainActivity">
+
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="4"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:cursorVisible="false"
+        android:ems="8"
+        android:text="@string/_0"
+        android:gravity="end"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/butt_ac"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:onClick="funcOnClick"
+        android:text="@string/ac" />
+
+    <Button
+        android:id="@+id/butt_del"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:onClick="funcOnClick"
+        android:text="@string/del" />
+
+    <Button
+        android:id="@+id/butt_7"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:onClick="calcOnClick"
+        android:text="@string/_7" />
+
+    <Button
+        android:id="@+id/butt_8"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:onClick="calcOnClick"
+        android:text="@string/_8" />
+
+    <Button
+        android:id="@+id/butt_9"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:onClick="calcOnClick"
+        android:text="@string/_9" />
+
+    <Button
+        android:id="@+id/butt_div"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:onClick="funcOnClick"
+        android:text="@string/div" />
+
+    <Button
+        android:id="@+id/butt_4"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:onClick="calcOnClick"
+        android:text="@string/_4" />
+
+    <Button
+        android:id="@+id/butt_5"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:onClick="calcOnClick"
+        android:text="@string/_5" />
+
+    <Button
+        android:id="@+id/butt_6"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:onClick="calcOnClick"
+        android:text="@string/_6" />
+
+    <Button
+        android:id="@+id/butt_mul"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:onClick="funcOnClick"
+        android:text="@string/mul" />
+
+    <Button
+        android:id="@+id/butt_1"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:onClick="calcOnClick"
+        android:text="@string/_1" />
+
+    <Button
+        android:id="@+id/butt_2"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:onClick="calcOnClick"
+        android:text="@string/_2" />
+
+    <Button
+        android:id="@+id/butt_3"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:onClick="calcOnClick"
+        android:text="@string/_3" />
+
+    <Button
+        android:id="@+id/butt_add"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:onClick="funcOnClick"
+        android:text="@string/add" />
+
+    <Button
+        android:id="@+id/butt_point"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:onClick="calcOnClick"
+        android:text="@string/point" />
+
+    <Button
+        android:id="@+id/butt_0"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:onClick="calcOnClick"
+        android:text="@string/_0" />
+
+
+    <Button
+        android:id="@+id/butt_enter"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:onClick="funcOnClick"
+        android:text="@string/enter" />
+
+    <Button
+        android:id="@+id/butt_dim"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:onClick="funcOnClick"
+        android:text="@string/dim" />
+
+
+</GridLayout>
