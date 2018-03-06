@@ -6,10 +6,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import java.util.Locale;
+
 public class MainActivity extends AppCompatActivity {
 
     private double firstOperand = 0;
-    private double secondOperand = 0;
     private String operation = "";
 
 
@@ -39,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.butt_ac:
                 mEditText.setText("0");
                 firstOperand = 0;
-                secondOperand = 0;
+                double secondOperand;
                 operation = "";
                 break;
             case R.id.butt_del:
@@ -67,7 +68,8 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.butt_enter:
                 secondOperand = Double.parseDouble(mEditText.getText().toString());
-                mEditText.setText(String.format("%f", calculate(operation, firstOperand, secondOperand)));
+                double result = calculate(operation, firstOperand, secondOperand);
+                mEditText.setText(String.format(Locale.getDefault(), "%f", result));
                 break;
         }
 

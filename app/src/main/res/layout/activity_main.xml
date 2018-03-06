@@ -39,21 +39,18 @@
         android:text="@string/del" />
 
     <Button
-        android:id="@+id/butt_7"
         android:layout_width="60dp"
         android:layout_height="wrap_content"
         android:onClick="calcOnClick"
         android:text="@string/_7" />
 
     <Button
-        android:id="@+id/butt_8"
         android:layout_width="60dp"
         android:layout_height="wrap_content"
         android:onClick="calcOnClick"
         android:text="@string/_8" />
 
     <Button
-        android:id="@+id/butt_9"
         android:layout_width="60dp"
         android:layout_height="wrap_content"
         android:onClick="calcOnClick"
@@ -67,21 +64,18 @@
         android:text="@string/div" />
 
     <Button
-        android:id="@+id/butt_4"
         android:layout_width="60dp"
         android:layout_height="wrap_content"
         android:onClick="calcOnClick"
         android:text="@string/_4" />
 
     <Button
-        android:id="@+id/butt_5"
         android:layout_width="60dp"
         android:layout_height="wrap_content"
         android:onClick="calcOnClick"
         android:text="@string/_5" />
 
     <Button
-        android:id="@+id/butt_6"
         android:layout_width="60dp"
         android:layout_height="wrap_content"
         android:onClick="calcOnClick"
@@ -95,21 +89,18 @@
         android:text="@string/mul" />
 
     <Button
-        android:id="@+id/butt_1"
         android:layout_width="60dp"
         android:layout_height="wrap_content"
         android:onClick="calcOnClick"
         android:text="@string/_1" />
 
     <Button
-        android:id="@+id/butt_2"
         android:layout_width="60dp"
         android:layout_height="wrap_content"
         android:onClick="calcOnClick"
         android:text="@string/_2" />
 
     <Button
-        android:id="@+id/butt_3"
         android:layout_width="60dp"
         android:layout_height="wrap_content"
         android:onClick="calcOnClick"
